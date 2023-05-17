@@ -1,9 +1,11 @@
+package javasrc.contest.biweekly99;
+
 /*
  * @Created ${MONTH}/${DAY}/${YEAR} - ${TIME}
  * @Author ${USER}
  *
  */
-public class Main {
+public class ColoredCells {
     public static void main(String[] args) {
 
 

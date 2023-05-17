@@ -1,9 +1,11 @@
+package javasrc.contest.biweekly99;
+
 /*
- * @Created ${MONTH}/${DAY}/${YEAR} - ${TIME}
- * @Author ${USER}
- * https://leetcode.com/contest/biweekly-contest-99/problems/count-ways-to-group-overlapping-ranges/
+ * @Created 05/17/2023
+ * @Author sun
+ * @Info: https://leetcode.com/contest/biweekly-contest-99/problems/count-ways-to-group-overlapping-ranges/
  */
-public class Main {
+public class GroupOverlappingRanges {
     public static void main(String[] args) {
         int[][] test = new int[8][];
         test[0] = new int[]{34,56};

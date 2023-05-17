@@ -1,18 +1,17 @@
+package javasrc.contest.weekly336;
+
 import java.util.HashSet;
 
 /*
- * @Created ${MONTH}/${DAY}/${YEAR} - ${TIME}
- * @Author ${USER}
- * 6315. Count the Number of Vowel Strings in Range
+ * @Created 05/17/2023
+ * @Author sun
+ * @Info: 6315. Count the Number of Vowel Strings in Range
  * https://leetcode.com/contest/weekly-contest-336/problems/count-the-number-of-vowel-strings-in-range/
  */
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
+public class NumberVowelStrings {
 
-class Solution {
+
+
     HashSet<Character> v = new HashSet<>();
     public int vowelStrings(String[] words, int left, int right) {
         v.add('a');
